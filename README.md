@@ -1,13 +1,27 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case with a simple smart contract deploy to MUMBAI Testnet.
 
-Try running some of the following tasks:
+Please make sure you have some MATIC test token. You can get free MATIC test at: https://faucet.polygon.technology/
+
+Follow these steps to get your own smart contracts on MUMBAI testnet.
+
+Install dependencies:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npm run i
 ```
+
+Create .env file on the root of project with this value:
+
+```txt
+WALLET_PRIVATE_KEY=STRING
+```
+
+Deploy to MUMBAI testnet:
+
+```txt
+npm run deploy:mumbai_testnet
+```
+
+Then you can check the deployed smart contract on Polygon scan [here](https://mumbai.polygonscan.com/tx/0xe5a267971d9c7fa7f11f5a21165db8c504a7b1cd02b16f8740559808e7a27d76)
