@@ -18,9 +18,9 @@ Create .env file on the root of project with this value:
 WALLET_PRIVATE_KEY=STRING
 ```
 
-Deploy to MUMBAI testnet:
+Finally, deploy to MUMBAI testnet:
 
-```txt
+```shell
 npm run deploy:mumbai_testnet
 ```
 
