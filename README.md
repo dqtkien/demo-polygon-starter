@@ -9,16 +9,16 @@ Follow these steps to get your own smart contracts on MUMBAI testnet.
 Install dependencies:
 
 ```shell
-npm run i
+npm i
 ```
 
 Create .env file on the root of project with this value:
 
 ```txt
-WALLET_PRIVATE_KEY=STRING
+WALLET_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 
-Finally, deploy to MUMBAI testnet:
+Finally, deploy to Polygon testnet:
 
 ```shell
 npm run deploy:mumbai_testnet
