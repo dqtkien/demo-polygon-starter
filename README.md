@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Sample Project
 
-This project demonstrates a basic Hardhat use case with a simple smart contract deploy to MUMBAI Testnet.
+This project demonstrates a basic Hardhat use case with a simple smart contract deploy to Polygon Testnet.
 
 Please make sure you have some MATIC test token. You can get free MATIC test at: https://faucet.polygon.technology/
 
