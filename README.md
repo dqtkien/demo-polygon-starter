@@ -25,3 +25,9 @@ npm run deploy:mumbai_testnet
 ```
 
 Then you can check the deployed smart contract on Polygon scan [here](https://mumbai.polygonscan.com/tx/0xe5a267971d9c7fa7f11f5a21165db8c504a7b1cd02b16f8740559808e7a27d76)
+
+## To run a simple mint task to specific receiver address with tokenid
+
+```shell
+npx hardhat mint --address 0x9A689c355325706Dc646287e8Bd94bDdFEFBC298 --id 1 --network mumbai_testnet
+```
